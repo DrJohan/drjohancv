@@ -37,7 +37,7 @@ meta() %>%
 
  
 <!-- start font awesome -->
-<script src="https://kit.fontawesome.com/1f72d6921a.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/e82584e357.js" crossorigin="anonymous"></script>
 
  
 <!-- final font awesome -->
@@ -49,7 +49,7 @@ knitr::opts_chunk$set(
 )
 
 library(magrittr) # For the pipe
-source("cv_printing_functions.r")
+source("cv_printing_functions_johan.r")
 
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
@@ -77,14 +77,8 @@ if(params$pdf_mode) {
 
 Aside
 ================================================================================
-![logo](johan.png){width=%}
+![logo](johan3.jpg){width=%}
 
-
-```{r}
-# Build interactive network of positions colored by section
-# and connected if they occurred in the same year
-datadrivencv::build_network_logo(CV$entries_data)
-```
 
 
 ```{r}
@@ -114,6 +108,21 @@ CV %>% print_skill_bars()
 
 Research Skills {#software}
 --------------------------------------------------------------------------------
+<i class="fas fa-viruses"></i> `Infectious Disease Modelling`
+
+<i class="fas fa-file-medical-alt"></i> `Scientific Literature Review`
+
+<i class="far fa-chart-bar"></i> `Regression Analysis`
+
+<i class="far fa-chart-bar"></i> `Time to Event Analysis`
+
+<i class="far fa-hospital"></i> `Experimental Design and Analysis`
+
+<i class="fas fa-disease"></i> `Basic and Advance Epidemiology`
+
+<i class="fas fa-brain"></i> `Articial Intelligence`
+
+<i class="fas fa-mortar-pestle"></i> `Study Design`
 
 
 
