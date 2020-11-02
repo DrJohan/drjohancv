@@ -11,30 +11,6 @@ output:
     self_contained: true
 ---
 
-```{r metathis, echo=FALSE}
-library(metathis)
-meta() %>%
-  meta_name("github-repo" = "DrJohan/drjohancv") %>% 
-  meta_social(
-    title = "Johan Ibrahim CV",
-    description = paste(
-      "CV made with the packages RMarkdown, pagedown, datadrivencv."
-    ),
-    url = "https://drjohan.github.io/drjohancv/index.html",
-    image = "https://beatrizmilz.github.io/resume/img/share-card.png",
-    image_alt = paste(
-      "Beatriz Milz CV"
-    ),
-    og_type = "website",
-    og_author = "Johan Ibrahim",
-    twitter_card_type = "summary_large_image",
-    twitter_creator = "@DrJohan81"
-  )
-```
-<!-- start academic icons -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-<!-- final academic icons -->
-
  
 <!-- start font awesome -->
 <script src="https://kit.fontawesome.com/e82584e357.js" crossorigin="anonymous"></script>
@@ -53,7 +29,7 @@ source("cv_printing_functions_johan.r")
 
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
-  data_location = "https://docs.google.com/spreadsheets/d/1_Y3HPpenl9Q0rovGZUmto6kxSCrtv8BsTGSfdk-xdXk/edit#gid=917338460",  
+  data_location = "https://docs.google.com/spreadsheets/d/1_Y3HPpenl9Q0rovGZUmto6kxSCrtv8BsTGSfdk-xdXk/edit?usp=sharing",  
   pdf_mode = params$pdf_mode
 )
 
