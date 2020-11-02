@@ -64,7 +64,7 @@ p::title {
 }
 
 img {
-    /*border-radius:100px;*/
+    border-radius:50%;
     padding-left: 8px;
     margin-bottom: 22px;
 }
