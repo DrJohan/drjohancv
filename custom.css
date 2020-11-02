@@ -3,12 +3,12 @@
 /* Give headers playfair font */
 h1 {
 font-family: 'Lexend Deca', sans-serif;
-color: #006A67;
+color: #88398a;
 }
 
 
 :root {
-  --sidebar-background-color: #DAE7ED; /* Make sidebar blue */
+  --sidebar-background-color: #f1ecf5; /* Make sidebar blue */
 }
 
 
@@ -16,7 +16,7 @@ h2{
   font-family: 'Montserrat', sans-serif;
  	font-weight: 400;
 	font-size: 1.1rem;
-	color: #172A3A;
+	color: #555; 
 	text-transform: uppercase;
 }
 
@@ -24,19 +24,19 @@ h2{
 h3{
     font-family: 'Montserrat', sans-serif;
   	font-weight: 500;
-  	color: #006A67;
+  	color: #88398a;
 
 }
 
 
 a {
-	color: #00806A;
+	color: #095a95;
 
 }
 
 a:hover {
 	text-decoration: underline dotted;
-
+	
 
 }
 
@@ -46,14 +46,14 @@ a:hover {
 }
 
 .decorator::after {
-	background-color: #F0F7FA;
+	background-color: #8f4591;
 }
 
 
 
 
 b::title{
-  	color: #006A67;
+  	color: #88398a;
 	font-weight: 600;
 }
 
@@ -61,10 +61,4 @@ b::title{
 p::title {
 
 	text-align: justify;
-}
-
-img {
-    border-radius:50%;
-    padding-left: 8px;
-    margin-bottom: 22px;
 }
