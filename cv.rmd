@@ -66,9 +66,9 @@ datadrivencv::build_network_logo(CV$entries_data)
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at _drjohan.github.io/drjohancv/cv.html")
+  cat("View this CV online with links at drjohan.github.io/drjohancv/index.html")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/DrJohan/drjohancv/johan_cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/DrJohan/drjohancv/drjohancv.pdf)")
 }
 ```
 
@@ -80,7 +80,6 @@ Contact {#contact}
 - <i class="fab fa-orcid"></i> <a href='https://orcid.org/0000-0002-1437-5183'> Orcid Johan </a>  
 - <i class="fa fa-home"></i> [Johan Ibrahim](https://drjohan.rbind.io)
 - <i class="fab fa-linkedin-in"></i>  [Johan_Ibrahim](http://linkedin.com/in/johan_ibrahim)
-
 
 Research Skills {#skills}
 ---------------------------------------------------------------------------------
@@ -106,10 +105,10 @@ Main
 Johan Ibrahim {#title}
 --------------------------------------------------------------------------------
 
-```{r}
-# Note the special double pipe so we modify the CV object in place
-CV %<>% print_text_block("intro") 
-```
+Hi!! My name is Johan Ibrahim. Currently I'm working as Clinical Research Associate with [Aesculape CRO Belgium-Singapore](https://www.aesculape.com). 
+
+
+I describe myself as dedicated, highly motivated and enthusiastic medical graduate with in-depth knowledge of research design and methodologies, medical statistic, big data capture, curation, manipulation and visualization and has been certified Good Clinical Practice researcher from National Institute of Health (NIH) Malaysia.Able to use own initiative and work as part of a team under pressure to meet challenging deadlines/objectives. 
 
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -180,7 +179,7 @@ Made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
 The source code is available <i class="fa fa-github"></i> [Github](https://github.com/DrJohan/drjohancv).
 
-Last updated on `r Sys.Date()`. The most recent version of this CV is [available here](drjohan.github.io/drjohancv/)
+Last updated on `r Sys.Date()`. The most recent version of this CV is [available here](drjohan.github.io/drjohancv/index.html)
 
 
 
