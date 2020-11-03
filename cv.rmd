@@ -160,6 +160,13 @@ CV %<>% print_section('research_projects')
 ```
 
 
+Selected Events Attended {data-icon=calendar-check}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('events_attended')
+```
+
 
 Selected Data Science Writing {data-icon=chart-line}
 --------------------------------------------------------------------------------
@@ -170,15 +177,7 @@ I regularly blog on statistics and data science on my personal blog that are bui
 
 
 
-
-
-
-
-
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
-
 The source code is available <i class="fa fa-github"></i> [Github](https://github.com/DrJohan/drjohancv).
-
 Last updated on `r Sys.Date()`. The most recent version of this CV is [available here](drjohan.github.io/drjohancv/index.html)
 
 
