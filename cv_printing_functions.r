@@ -91,7 +91,6 @@ create_CV_object <-  function(data_location,
         no_start  & no_end  ~ "N/A",
         no_start  & has_end ~ as.character(end),
         has_start & no_end  ~ paste("Current", "-", start),
-        start_year == end_year ~ paste(start_year),       #MUDEI ISSO
         TRUE                ~ paste(end, "-", start)
       )
     ) %>%
@@ -140,9 +139,9 @@ print_section <- function(cv, section_id, glue_template = "default"){
     glue_template <- "
 ### {title}
 
-{institution} 
-
 {loc}
+
+{institution}
 
 {timeline}
 
@@ -186,7 +185,7 @@ print_text_block <- function(cv, label){
 
 #' @description Construct a bar chart of skills
 #' @param out_of The relative maximum for skills. Used to set what a fully filled in skill bar is.
-print_skill_bars <- function(cv, out_of = 5, bar_color = "#ac48ae", bar_background = "#d9d9d9", glue_template = "default"){
+print_skill_bars <- function(cv, out_of = 5, bar_color = "#969696", bar_background = "#d9d9d9", glue_template = "default"){
 
   if(glue_template == "default"){
     glue_template <- "
