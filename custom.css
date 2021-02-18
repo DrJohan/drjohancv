@@ -50,8 +50,6 @@ a:hover {
 }
 
 
-
-
 b::title{
   	color: #88398a;
 	font-weight: 600;
@@ -61,4 +59,8 @@ b::title{
 p::title {
 
 	text-align: justify;
+}
+
+.skill-bar{
+	background-color: #8f4591
 }
