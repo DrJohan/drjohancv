@@ -157,20 +157,35 @@ Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 ::: aside
 
-I'm a medical doctor by training. In the past, I've been served people in Indonesia and Malaysia and actively involve in search and rescue during Earthquake in Indonesia, 2006. Then, I decided to have a change in career after being inspired by my mentor Prof Ronan Conroy and decided to pursue a career in research as medical statistician cum data scientist. 
+I'm a medical doctor by training. In the past, I've been served people in Indonesia and Malaysia and actively involve in search and rescue during Earthquake in Indonesia, 2006. Then, I decided to have a change in career after being inspired by my mentor Prof Ronan Conroy and decided to pursue a career in research as medical statistician cum data scientist. Since joining Aesculape CRO, I've been involved in multiple clinical trial including RWE/RWD research. I'm alsohighly motivated and results-oriented Clinical Research Associate II with 5 years of experience in cardiology, neurology, and dermatology. Proven ability to manage all aspects of clinical trials, from protocol development to close-out, while ensuring regulatory compliance and meeting aggressive deadlines. Strong track record of fostering collaboration with investigators and stakeholders to deliver successful clinical research programs. 
 
 :::
 
 ```{r}
 CV %<>% print_section('working_experience')
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 ::: aside
 
-I'm an active participant in the local R community [Malaysia R User Group](https://www.meetup.com/MY-RUserGroup/). I'm also one of the moderator in [Analisa Data Dengan R Studio group](https://www.facebook.com/groups/R4data) and actively giving guidance for RStudio beginner.
+Played a key role in managing multiple clinical trials across cardiology, neurology, and dermatology, ensuring all phases from start-up to close-out adhered to scientific protocols, regulatory requirements, and ethical guidelines.
 
+Successfully achieved on-time completion of study milestones by developing and implementing effective site management plans, including investigator recruitment, site initiation visits, and ongoing monitoring visits.
+
+Proactively identified and mitigated potential regulatory risks by maintaining a deep understanding of ICH-GCP guidelines and communicating effectively with investigators and sponsors to ensure all studies remained compliant.
 
 
 :::
@@ -182,7 +197,16 @@ I'm an active participant in the local R community [Malaysia R User Group](https
 ```{r}
 CV %<>% print_section('research_projects')
 ```
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 Selected Events Attended {data-icon=calendar-check}
 --------------------------------------------------------------------------------
@@ -192,14 +216,10 @@ CV %<>% print_section('events_attended')
 ```
 
 
-Selected Data Science Writing {data-icon=chart-line}
---------------------------------------------------------------------------------
+<!-- Selected Data Science Writing {data-icon=chart-line} -->
+<!-- -------------------------------------------------------------------------------- -->
 
 ::: aside
-I regularly blog on statistics and data science on my personal blog that are built using [blogdown](https://github.com/rstudio/blogdown) package. You can find my blog here [Johan Ibrahim](drjohan.rbind.io)
-
-
-
 
 The source code is available <i class="fa fa-github"></i> [Github](https://github.com/DrJohan/drjohancv).
 Last updated on `r Sys.Date()`. The most recent version of this CV is [available here](drjohan.github.io/drjohancv/index.html)
